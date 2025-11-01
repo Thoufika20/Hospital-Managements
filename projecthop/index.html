@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JMC Group of Hospitals</title>
+
+  <!--swiper-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar section-->
+    <header class="sticky">
+        <span class="logo"> <img src="image/logo.jpg" alt="jmc Logo" class="logo" > </span>
+        <nav class="navbar1">
+    <ul class="nav-bar">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">OUR SERVICES</a></li>
+      <li><a href="#">DOCTORS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+        </nav>
+      <i class='bx  bx-menu' id="menu-bars"></i> 
+    </header>
+
+
+    <!--home page-->
+    <section class="home">
+      <img src="image/home.jpg" alt="Full Width Image">
+      <div class="content">
+        <h1>Serving Your Health Needs Is Our Priority.</h1>
+        <p>There nothing more important than our good health, cause that's our principal capital asset for our good future</p>
+        <button><a>Book Appointment</a></button>
+   </div>
+      </section>
+
+
+<!--about us-->
+        <section class="aboutus">
+            <div class="images" data-aos="fade-right">
+            <img src="image/about.jpg" alt="img1" class="image1">
+            <img src="image/about3.jpg" alt="img1" class="image2">
+            </div>
+        <div class="about" data-aos="fade-left">
+        <h2 class="about-head">Healing with care and Campassion</h2>
+        <p>We are well staffed who are competent in their respective fields, and well equipped for the diagnosis of disease, for the treatment, both medical and surgical, of the sick and the injured, and for their housing during this process. <br><br>
+We also have outpatient facilities and inpatient facilities where the patients may also stay for treatment in surgical or medical procedures for part of a day or for a full day, after which they are discharged for follow-up by the respective doctors. <br><br>
+We have specialist units such as cardiology, dentistry, skin-specialist and pharmacy.</p>
+ <button>Read more</button> 
+        </div>
+        </section >
+
+<!--our services-->
+<section class="services" data-aos="zoom-in">
+  <h1>Our Healthcare Serivce</h1>
+  <p>It is a long Established Fact that a reader will be distracted by the readable content of page when looking at its layout.</p>
+  <div class="service-container">
+    <div class="card" data-aos="zoom-in">
+      <i class="fas fa-heartbeat"></i>
+      <h3>Cardiology</h3>
+      <p>Strong hearts, healthy lives. Expert care for all heart conditions.</p>
+      <button>Read More</button>
+    </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fas fa-brain"></i>
+      <h3>Neurology</h3>
+      <p>Sharper minds, healthier lives. Comprehensive care for brain and nerves.</p>
+      <button>Read More</button>
+    </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-bone"></i>
+      <h3>Orthopedics</h3>
+      <p>Move better, live stronger. Advanced care for bones, joints, and spine.</p>
+      <button>Read More</button>
+    </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fas fa-baby"></i>
+      <h3>Pediatrics</h3>
+      <p>Healthy kids, happy families. Complete care for infants, children, and adolescents.</p>
+      <button>Read More</button>
+    </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-female cards"></i>
+      <h3>Gynecology</h3>
+      <p>Women’s health, our priority. Expert care from adolescence to menopause.</p>
+      <button>Read More</button>
+    </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fas fa-allergies"></i>
+        <h3>Dermatology</h3>
+        <p>Healthy skin, confident you. Advanced treatment for all skin conditions..</p>
+      <button>Read More</button>
+    </div>
+  </div>
+</section>
+
+<!--doctors-->
+
+  <section class="doc-container">
+    <div class="doc-head">
+      <h1>Our Dedicated Doctors</h1>
+      <p>Experienced and compassionate professionals committed to your health and well-being.</p>
+    </div>
+
+     <!-- Swiper container -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <!-- Doctor 1 -->
+      <div class="swiper-slide team-card">
+        <img src="image/doc1.jpg" alt="Doctor 1">
+        <div class="team-info">
+          <h3>Dr. Ayesha Rahman</h3>
+          <h6>Cardiology Specialist</h6>
+          <p>Experienced cardiologist with years of practice treating heart-related diseases and improving patient well-being.</p>
+        
+        <div class="team-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      </div>
+            <!-- Doctor 2 -->
+      <div class="swiper-slide team-card">
+        <img src="image/doc2.jpg" alt="Doctor 1">
+        <div class="team-info">
+          <h3>Dr. Ayesha Rahman</h3>
+          <h6>Cardiology Specialist</h6>
+          <p>Experienced cardiologist with years of practice treating heart-related diseases and improving patient well-being.</p>
+        
+        <div class="team-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      </div>
+            <!-- Doctor 3 -->
+      <div class="swiper-slide team-card">
+        <img src="image/doc3.jpg" alt="Doctor 1">
+        <div class="team-info">
+          <h3>Dr. Ayesha Rahman</h3>
+          <h6>Cardiology Specialist</h6>
+          <p>Experienced cardiologist with years of practice treating heart-related diseases and improving patient well-being.</p>
+        
+        <div class="team-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      </div>
+                 <!-- Doctor 4 -->
+      <div class="swiper-slide team-card">
+        <img src="image/doc4.jpg" alt="Doctor 1">
+        <div class="team-info">
+          <h3>Dr. Ayesha Rahman</h3>
+          <h6>Cardiology Specialist</h6>
+          <p>Experienced cardiologist with years of practice treating heart-related diseases and improving patient well-being.</p>
+        
+        <div class="team-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      </div>
+                 <!-- Doctor 5 -->
+      <div class="swiper-slide team-card">
+        <img src="image/doc5.jpg" alt="Doctor 1">
+        <div class="team-info">
+          <h3>Dr. Ayesha Rahman</h3>
+          <h6>Cardiology Specialist</h6>
+          <p>Experienced cardiologist with years of practice treating heart-related diseases and improving patient well-being.</p>
+        
+        <div class="team-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      </div>
+                 <!-- Doctor 6 -->
+      <div class="swiper-slide team-card">
+        <img src="image/doc6.jpg" alt="Doctor 1">
+        <div class="team-info">
+          <h3>Dr. Ayesha Rahman</h3>
+          <h6>Cardiology Specialist</h6>
+          <p>Experienced cardiologist with years of practice treating heart-related diseases and improving patient well-being.</p>
+        
+        <div class="team-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      </div>
+    </div>
+        <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Navigation -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+      </section>
+
+
+  <footer>
+  <div class="row">
+    <div class="col">
+      <h4>JMC Groups of Hospital</h4>
+      <p>Caring hands, healing hearts.We're here for you 24/7 with trusted medical care.</p>
+    </div>
+    <div class="col">
+      <h4>Contact <div class="underline"><span></span></div></h4>
+      <p>TVS tolget</p>
+      <p>South Street, Trichy</p>
+      <p>TamilNadu, PIN 620017, India</p>
+      <p class="email-id">jmchosp@gmail.com</p>
+      <h5>+91 - 9876543210</h5>
+    </div>
+    <div class="col">
+      <h4>Links <div class="underline"><span></span></div></h4>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Serivces</a></li>
+        <li><a href="">Doctors</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h4>Newsletter <div class="underline"><span></span></div></h4>
+      <form>
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Enter your email id" required>
+        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+      </form>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <p class="copyright">&copy; 2025 jmc gropus of hospital. All rights reserved.</p>
+</footer>
+
+
+
+    <script>
+    let menubar=document.querySelector('#menu-bars');
+    let navbar=document.querySelector('.nav-bar');
+     
+    menubar.onclick=()=>{
+        menubar.classList.toggle('bx-x');
+        navbar.classList.toggle('active');
+    }
+  //------------nav scroll-----------------------------------/
+
+                window.addEventListener("scroll", function () {
+                    var header = document.querySelector("header");
+                    header.classList.toggle("sticky", window.scrollY > 0);
+                })
+
+              
+</script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,  // animation duration
+    once: true       // animation happens only once
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script>
+ const swiper = new Swiper('.mySwiper', {
+  loop: true,
+  grabCursor: true,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    
+    768: { slidesPerView: 1 },
+    1024: { slidesPerView: 2}
+  }
+});
+
+</script>
+</body>
+</html>
